@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-text h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #2c3e50;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #DB8151 ;
+    margin: 5px 0;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+.edu-item {
+    margin-bottom: 40px;
+}
+
+.divider {
+    border-top: 2px solid #333;
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    .main-header {
+        flex-direction: column-reverse; 
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
